@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "CliftonTrial-205TF";
+  src: url("/fonts/CliftonTrial-205TF/CliftonTrial-Italic.otf");
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "CliftonTrial-205TF";
+  src: url("/fonts/CliftonTrial-205TF/CliftonTrial-Regular.otf");
+  font-style: medium;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "TuskerGrotesk";
+  src: url("/fonts/TuskerGrotesk/TuskerGrotesk-5600Semibold.ttf");
+  font-style: medium;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SharpGrotesk";
+  src: url("/fonts/SharpGrotesk/SharpGrotesk-Medium20.otf");
+  font-style: medium;
+  font-weight: 400;
+  font-display: swap;
+}
+
+html,
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}

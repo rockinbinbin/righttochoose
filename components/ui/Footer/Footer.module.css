@@ -1,0 +1,15 @@
+.link {
+  @apply inline-flex items-center leading-6 font-medium transition ease-in-out duration-75 cursor-pointer text-black rounded-md p-1;
+}
+
+.link:hover {
+  @apply text-green-700;
+}
+
+.link:focus {
+  @apply outline-none text-green-700 ring-2 ring-pink-500 ring-opacity-50;
+}
+
+.logo {
+  @apply cursor-pointer rounded-full transform duration-100 ease-in-out;
+}
